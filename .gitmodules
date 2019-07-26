@@ -1,0 +1,12 @@
+[submodule "tmux-conf"]
+	path = tmux-conf
+	url = https://github.com/hitmoon/tmux-conf
+[submodule "git-conf"]
+	path = git-conf
+	url = https://github.com/hitmoon/git-conf
+[submodule "vim-conf"]
+	path = vim-conf
+	url = https://github.com/hitmoon/vim-conf
+[submodule "emacs-conf"]
+	path = emacs-conf
+	url = https://github.com/hitmoon/emacs-conf
