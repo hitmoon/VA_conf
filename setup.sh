@@ -22,8 +22,8 @@ cp -iv tmux-conf/tmux.conf ~/.tmux.conf
 # emcas
 echo "setting up emacs config"
 cp -iv emacs-conf/emacs-26-linux.conf ~/.emacs
-echo "setting up solarized emacs color"
-mkdir -p ~/.emacs.d/solarized
-cp -iv emacs-conf/color-theme-solarized.el ~/.emacs.d/solarized/
+echo "setting up emacs config data"
+mkdir -p ~/.emacs.d
+cp -r emacs-conf/emacs.d/* ~/.emacs.d/
 
 echo "all done. Enjoy ;-)"
