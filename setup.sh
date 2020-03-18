@@ -25,6 +25,7 @@ cp -iv emacs-conf/emacs-26-linux.conf ~/.emacs
 echo "setting up emacs config data"
 mkdir -p ~/.emacs.d
 cp -r emacs-conf/emacs.d/* ~/.emacs.d/
+cp -r emacs-conf/terminfo ~/.terminfo
 
 echo "Please Note:"
 echo "for emacs to work properly, Please make sure following packages is installed:"
