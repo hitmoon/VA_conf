@@ -21,8 +21,6 @@ cp -iv tmux-conf/tmux.conf ~/.tmux.conf
 
 # emcas
 echo "setting up emacs config"
-cp -iv emacs-conf/emacs-26-linux.conf ~/.emacs
-echo "setting up emacs config data"
 mkdir -p ~/.emacs.d
 cp -r emacs-conf/emacs.d/* ~/.emacs.d/
 cp -r emacs-conf/terminfo ~/.terminfo
