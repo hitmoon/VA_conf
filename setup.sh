@@ -10,6 +10,7 @@ cp -iv vim-conf/vimrc.conf ~/.vimrc
 echo "setting up solarized vim color"
 mkdir -p ~/.vim/colors
 cp -v vim-conf/solarized.vim ~/.vim/colors
+cp -v vim-conf/solarized8*.vim ~/.vim/colors
 
 # git
 echo "settting up git config"
